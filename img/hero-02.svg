@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080">
+  <defs>
+    <linearGradient id="bg" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fafaf8"/>
+      <stop offset="55%" stop-color="#d6d6cf"/>
+      <stop offset="100%" stop-color="#b3b3ab"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1080" fill="url(#bg)"/>
+  <g fill="#ffffff" fill-opacity=".42">
+    <rect x="980" y="110" width="360" height="790" rx="22"/>
+    <rect x="1060" y="180" width="210" height="650" rx="18"/>
+    <rect x="260" y="240" width="230" height="220" rx="14"/>
+  </g>
+  <g stroke="#898982" stroke-opacity=".42" fill="none">
+    <line x1="1030" y1="200" x2="1290" y2="200" stroke-width="1.6"/>
+    <line x1="1030" y1="280" x2="1290" y2="280" stroke-width="1.6"/>
+    <line x1="1030" y1="360" x2="1290" y2="360" stroke-width="1.6"/>
+    <line x1="1030" y1="440" x2="1290" y2="440" stroke-width="1.6"/>
+    <line x1="1030" y1="520" x2="1290" y2="520" stroke-width="1.6"/>
+    <line x1="1030" y1="600" x2="1290" y2="600" stroke-width="1.6"/>
+    <line x1="1030" y1="680" x2="1290" y2="680" stroke-width="1.6"/>
+    <line x1="1030" y1="760" x2="1290" y2="760" stroke-width="1.6"/>
+  </g>
+  <g fill="none" stroke="#6e6e68" stroke-opacity=".38">
+    <path d="M136 902c180-76 344-120 514-128 196-10 378 30 618 148" stroke-width="2.1"/>
+    <path d="M192 812c172-72 334-112 504-116 178-4 342 28 548 118" stroke-width="1.4"/>
+    <path d="M320 146c54 84 86 168 94 262 10 124-22 246-108 428" stroke-width="2.2"/>
+  </g>
+</svg>
