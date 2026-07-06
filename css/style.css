@@ -612,6 +612,27 @@ h3 span::after {
   transform: scale(1.03);
 }
 
+.workCard.is-coming-soon {
+  cursor: default;
+}
+
+.workCard.is-coming-soon:hover,
+.workCard.is-coming-soon:focus-within {
+  transform: none;
+  box-shadow: var(--shadow);
+}
+
+.workCard.is-coming-soon:hover::before,
+.workCard.is-coming-soon:focus-within::before {
+  transform: none;
+}
+
+.workCard.is-coming-soon::after {
+  background:
+    linear-gradient(180deg, rgba(247, 247, 244, 0.58), rgba(247, 247, 244, 0.28)),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+}
+
 .workCardInner {
   position: relative;
   z-index: 1;
@@ -742,6 +763,20 @@ h4 span {
   margin-left: 8px;
   padding: 2px 6px;
   background: rgba(111, 111, 106, 0.84);
+  color: #ffffff;
+  font: 500 1rem/1 "Cormorant Garamond", serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.workCard.is-coming-soon .workSummary::after {
+  content: "soon";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  padding: 2px 6px;
+  background: rgba(151, 151, 145, 0.82);
   color: #ffffff;
   font: 500 1rem/1 "Cormorant Garamond", serif;
   letter-spacing: 0.08em;
