@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>箱庭文庫 | Hakoniwa Bunko</title>
+  <meta name="description" content="静かな余白のための小さな物語を収めた、文字書きの個人サイト。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a id="top"></a>
+
+  <header id="mainHeader" class="mainHeader">
+    <div class="heroSlides" aria-hidden="true">
+      <div class="heroSlide is-active" style="background-image: url('img/hero-01.svg');"></div>
+      <div class="heroSlide" style="background-image: url('img/hero-02.svg');"></div>
+      <div class="heroSlide" style="background-image: url('img/hero-03.svg');"></div>
+      <div class="heroSlide" style="background-image: url('img/hero-04.svg');"></div>
+      <div class="heroSlide" style="background-image: url('img/hero-05.svg');"></div>
+    </div>
+
+    <nav id="siteNav" class="siteNav siteNavPrimary" aria-label="主要ナビゲーション">
+      <ul class="siteNavList">
+        <li><a href="#top">TOP</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contents">Novels</a></li>
+        <li><a href="#diary">Diary</a></li>
+      </ul>
+      <div class="siteNavMeta">
+        <p class="siteNavLabel">Novel Site</p>
+        <p class="siteNavUrl">hakoniwa-bunko.local</p>
+      </div>
+    </nav>
+
+    <nav id="siteNavClone" class="siteNav siteNavClone" aria-label="固定ナビゲーション"></nav>
+
+    <button
+      id="siteNavToggle"
+      class="siteNavToggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="siteNav"
+      aria-label="メニューを開く"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="heroInner">
+      <div class="siteInfo">
+        <p class="eyebrow">Gray and white stories drifting in a small garden.</p>
+        <h1 class="siteTitle">
+          <span>箱庭文庫</span>
+          <small>Hakoniwa Bunko</small>
+        </h1>
+        <p class="lead">
+          積み上げた小さな物語を収める場所。<br>
+          本棚の片隅にある小さな物語たち。
+        </p>
+        <p class="meta">Latest update 2026.07.06</p>
+      </div>
+    </div>
+
+    <div class="backTop">
+      <a href="#top">Top</a>
+    </div>
+  </header>
+
+  <div class="pageWrap">
+    <main>
+      <section id="about" class="panel panelLooseleaf">
+        <h2><span>About</span></h2>
+        <h3><span>This Library</span></h3>
+        <p>
+          箱庭文庫司書のShiAnです。ここは文字書きの個人サイトです。個人の範疇でお楽しみください。
+        </p>
+        <p>
+          また、他サイトへの転載・文章の改変・AIへの学習は厳禁です。
+        </p>
+        <div class="aboutLinks">
+          <a
+            class="aboutSocialLink"
+            href="https://x.com/ShiaA_game"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X"
+          >
+            <img src="img/x-twitter.png" alt="X">
+          </a>
+        </div>
+      </section>
+
+      <section id="contents" class="panel panelPlain">
+        <h2><span>Novels</span></h2>
+
+        <div class="worksGrid">
+          <article class="workCard workCardFeature workCardFeatureArknights workCardArknights new">
+            <a href="genres/arknights-endfield.html" class="workCardInner">
+              <h4><span>Arknights：Endfield</span></h4>
+              <p class="workSummary">
+                Wulfgard × EndministerA
+              </p>
+            </a>
+          </article>
+
+          <article class="workCard workCardFeature workCardFeatureTales workCardTales">
+            <a href="genres/tales-of.html" class="workCardInner">
+              <h4><span>Tales of</span></h4>
+              <p class="workSummary">
+                ToZ [Sorey × Mikleo]<br>
+                ToD [Stan × Lion]
+              </p>
+            </a>
+          </article>
+
+          <article class="workCard workCardFeature workCardFeatureInitialD workCardInitialD">
+            <a href="genres/initial-d.html" class="workCardInner">
+              <h4><span>Initial D</span></h4>
+              <p class="workSummary">
+                Keisuke.T × Ryosuke.T
+              </p>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="diary" class="panel panelPlain panelDiaryIndex">
+        <h2><span>Diary</span></h2>
+
+        <div class="diaryIntroBlock">
+          <p class="diaryIntro">
+            X のように短い言葉や写真を置いていくための記録棚です。月ごとに束ねながら、上から新しい順に読み返せる形にしています。
+          </p>
+        </div>
+
+        <div class="diaryIndexGrid">
+          <article class="diaryMonthCard">
+            <a href="diary/2026-07.html" class="diaryMonthCardInner">
+              <p class="diaryMonthLabel">2026.07</p>
+              <h3><span>July Notes</span></h3>
+              <p class="diaryMonthLead">
+                夏の入口に残した短いメモをまとめています。画像付きの投稿もこの月ページに含めています。
+              </p>
+              <p class="diaryMonthMeta">Latest month archive</p>
+            </a>
+          </article>
+
+          <div class="diaryArchiveCard">
+            <h3><span>Monthly Archive</span></h3>
+            <ul class="diaryArchiveList">
+              <li><a href="diary/2026-07.html">2026.07</a></li>
+              <li><a href="diary/2026-06.html">2026.06</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mainFooter">
+      <p>箱庭文庫 / Hakoniwa Bunko</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
