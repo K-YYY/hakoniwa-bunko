@@ -316,6 +316,10 @@ p {
   background-image: url("../img/initial-d-card.jpg");
 }
 
+.workCardOriginal::before {
+  background-image: url("../img/original-card.png");
+}
+
 .workCard::after {
   content: "";
   position: absolute;
@@ -590,8 +594,8 @@ h3 span::after {
 
 .worksGrid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
   margin-top: 28px;
   margin-bottom: 56px;
 }
@@ -693,6 +697,20 @@ h3 span::after {
     linear-gradient(180deg, rgba(249, 249, 247, 0.58), rgba(249, 249, 247, 0.18)),
     linear-gradient(90deg, rgba(249, 249, 247, 0.14) 0%, rgba(249, 249, 247, 0.02) 38%, rgba(249, 249, 247, 0.22) 100%),
     linear-gradient(120deg, rgba(255, 255, 255, 0) 16%, rgba(255, 255, 255, 0.22) 48%, rgba(255, 255, 255, 0) 80%);
+  background-size: auto, auto, 210% 100%;
+  background-position: center, center, 125% 0;
+}
+
+.workCardFeatureOriginal::before {
+  background-position: center 52%;
+  filter: saturate(0.34) brightness(0.54) contrast(0.9);
+}
+
+.workCardFeatureOriginal::after {
+  background:
+    linear-gradient(180deg, rgba(250, 250, 248, 0.72), rgba(248, 248, 245, 0.28)),
+    linear-gradient(90deg, rgba(244, 244, 241, 0.16) 0%, rgba(244, 244, 241, 0.04) 38%, rgba(244, 244, 241, 0.22) 100%),
+    linear-gradient(120deg, rgba(255, 255, 255, 0) 16%, rgba(255, 255, 255, 0.16) 48%, rgba(255, 255, 255, 0) 80%);
   background-size: auto, auto, 210% 100%;
   background-position: center, center, 125% 0;
 }
@@ -1143,6 +1161,14 @@ h4 span {
   overflow: hidden;
 }
 
+.adInlinePc {
+  display: flex;
+}
+
+.adInlineSp {
+  display: none;
+}
+
 body.is-scrolled .siteNavPrimary {
   opacity: 0;
   visibility: hidden;
@@ -1311,8 +1337,12 @@ body.is-scrolled .backTop {
       linear-gradient(180deg, rgba(242, 242, 239, 0.99), rgba(236, 236, 232, 0.99));
   }
 
-  .adInlineArea {
+  .adInlinePc {
     display: none;
+  }
+
+  .adInlineSp {
+    display: flex;
   }
 }
 
