@@ -1561,7 +1561,7 @@ body.is-scrolled .backTop {
   }
 
   .panelNovel {
-    padding: 48px 64px 88px;
+    padding: 48px 56px 88px;
     background:
       linear-gradient(90deg, transparent 0 44px, rgba(196, 196, 190, 0.28) 44px 45px, transparent 45px 100%),
       linear-gradient(180deg, rgba(242, 242, 239, 0.99), rgba(236, 236, 232, 0.99));
