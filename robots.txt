@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hakoniwa-bunko.pages.dev/sitemap.xml
