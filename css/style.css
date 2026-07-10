@@ -469,7 +469,7 @@ p {
 .panelLooseleaf {
   padding: 112px 72px 104px 128px;
   background:
-    linear-gradient(90deg, transparent 0 78px, rgba(208, 208, 202, 0.26) 78px 79px, transparent 79px 100%),
+    linear-gradient(90deg, transparent 0 72px, rgba(208, 208, 202, 0.26) 72px 73px, transparent 73px 100%),
     repeating-linear-gradient(180deg, rgba(0, 0, 0, 0) 0 45px, rgba(218, 218, 213, 0.16) 45px 46px),
     linear-gradient(180deg, rgba(253, 253, 251, 0.99), rgba(249, 249, 246, 0.99));
   box-shadow:
@@ -1102,7 +1102,7 @@ h4 span {
   padding-top: 68px;
   padding-bottom: 104px;
   background:
-    linear-gradient(90deg, transparent 0 78px, rgba(196, 196, 190, 0.3) 78px 79px, transparent 79px 100%),
+    linear-gradient(90deg, transparent 0 72px, rgba(196, 196, 190, 0.3) 72px 73px, transparent 73px 100%),
     linear-gradient(180deg, rgba(242, 242, 239, 0.99), rgba(236, 236, 232, 0.99));
 }
 
@@ -1238,7 +1238,7 @@ body.is-scrolled .backTop {
   .panelNovel {
     padding-top: 62px;
     background:
-      linear-gradient(90deg, transparent 0 78px, rgba(196, 196, 190, 0.3) 78px 79px, transparent 79px 100%),
+      linear-gradient(90deg, transparent 0 72px, rgba(196, 196, 190, 0.3) 72px 73px, transparent 73px 100%),
       linear-gradient(180deg, rgba(242, 242, 239, 0.99), rgba(236, 236, 232, 0.99));
   }
 
@@ -1333,7 +1333,7 @@ body.is-scrolled .backTop {
   .panelNovel {
     padding-top: 56px;
     background:
-      linear-gradient(90deg, transparent 0 78px, rgba(196, 196, 190, 0.3) 78px 79px, transparent 79px 100%),
+      linear-gradient(90deg, transparent 0 72px, rgba(196, 196, 190, 0.3) 72px 73px, transparent 73px 100%),
       linear-gradient(180deg, rgba(242, 242, 239, 0.99), rgba(236, 236, 232, 0.99));
   }
 
@@ -1545,7 +1545,7 @@ body.is-scrolled .backTop {
   .panelLooseleaf {
     padding: 68px 24px 88px 82px;
     background:
-      linear-gradient(90deg, transparent 0 52px, rgba(208, 208, 202, 0.24) 52px 53px, transparent 53px 100%),
+      linear-gradient(90deg, transparent 0 48px, rgba(208, 208, 202, 0.24) 48px 49px, transparent 49px 100%),
       repeating-linear-gradient(180deg, rgba(0, 0, 0, 0) 0 39px, rgba(218, 218, 213, 0.15) 39px 40px),
       linear-gradient(180deg, rgba(253, 253, 251, 0.99), rgba(249, 249, 246, 0.99));
   }
@@ -1562,7 +1562,7 @@ body.is-scrolled .backTop {
   .panelNovel {
     padding-top: 48px;
     background:
-      linear-gradient(90deg, transparent 0 52px, rgba(196, 196, 190, 0.28) 52px 53px, transparent 53px 100%),
+      linear-gradient(90deg, transparent 0 48px, rgba(196, 196, 190, 0.28) 48px 49px, transparent 49px 100%),
       linear-gradient(180deg, rgba(242, 242, 239, 0.99), rgba(236, 236, 232, 0.99));
   }
 
