@@ -312,10 +312,6 @@ p {
   background-image: url("../img/tales-of-card.jpg");
 }
 
-.workCardInitialD::before {
-  background-image: url("../img/initial-d-card.jpg");
-}
-
 .workCardOriginal::before {
   background-image: url("../img/original-card.png");
 }
@@ -1122,11 +1118,11 @@ h4 span {
   width: 100%;
   max-width: 45em;
   margin-inline: auto;
-  line-height: 2.05;
+  line-height: 1.5;
 }
 
 .novelBody p + p {
-  margin-top: 1.6em;
+  margin-top: 0.3em;
 }
 
 .novelBody .novelSpacer {
