@@ -1606,6 +1606,18 @@ body.is-scrolled .backTop {
     padding-bottom: 82px;
   }
 
+  #about h3,
+  #about p,
+  #about .aboutLinks {
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about .aboutLinks {
+    justify-content: center;
+  }
+
   .panelNovel {
     padding: 48px 56px 88px;
     background:
