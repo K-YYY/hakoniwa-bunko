@@ -1606,6 +1606,14 @@ body.is-scrolled .backTop {
     padding-bottom: 82px;
   }
 
+  .panelDiaryMonth.panelLooseleaf {
+    padding: 46px 24px 82px 40px;
+    background:
+      linear-gradient(90deg, transparent 0 24px, rgba(208, 208, 202, 0.24) 24px 25px, transparent 25px 100%),
+      repeating-linear-gradient(180deg, rgba(0, 0, 0, 0) 0 39px, rgba(218, 218, 213, 0.15) 39px 40px),
+      linear-gradient(180deg, rgba(253, 253, 251, 0.99), rgba(249, 249, 246, 0.99));
+  }
+
   #about.panelLooseleaf {
     padding: 68px 24px 88px 40px;
     background:
