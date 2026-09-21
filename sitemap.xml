@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hakoniwa-bunko.pages.dev/index.html</loc>
+    <loc>https://hakoniwa-bunko.pages.dev/</loc>
   </url>
   <url>
     <loc>https://hakoniwa-bunko.pages.dev/diary/2026-06.html</loc>
@@ -44,6 +44,9 @@
   </url>
   <url>
     <loc>https://hakoniwa-bunko.pages.dev/novels/arknights-endfield/Salty-Over-You.html</loc>
+  </url>
+  <url>
+    <loc>https://hakoniwa-bunko.pages.dev/novels/arknights-endfield/moukiminotewo.html</loc>
   </url>
   <url>
     <loc>https://hakoniwa-bunko.pages.dev/novels/arknights-endfield/Say-you-love-me.html</loc>
